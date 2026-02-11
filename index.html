@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <h1>Simple Calculator</h1>
+    <div class="calculator">
+        <div class="displayscreen">
+            <div class="result" id="result"></div>
+        </div>
+        <div class="input">
+            <div class="number">
+                <input type="text" class="inputbox" placeholder="First Number" id="num1">
+            </div>
+            <div class="number">
+                <input type="text" class="inputbox" placeholder="Second Number" id="num2">
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="button" onclick="calculate('+')">+</button>
+            <button class="button" onclick="calculate('-')">-</button>
+            <button class="button" onclick="calculate('*')">X</button>
+            <button class="button" onclick="calculate('/')">÷</button>
+        </div>
+    </div>
+
+    <script src="src/js/script.js"></script>
+</body>
+</html>
